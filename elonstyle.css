@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rajdhani:wght@300&display=swap');
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+.logo-bar {
+    background-color:black;
+    color:white;
+    position:static;
+    width:100%;
+    position:relative;
+    margin-top: -9px;
+}
+.logo-bar > p{
+    font-family: 'Squada One', cursive;
+    font-size:40px;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left:20px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+nav{
+    background-color: rgb(0,0,0);
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:-10px;
+}
+nav ul{
+    list-style: none;
+    margin:10px;
+    width:100%;
+    text-align:center;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul li{
+   display:inline;
+   padding-left: 0.9em;
+   padding-right: 0.9em;
+}
+
+nav ul a{
+    color:white;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color:red;
+    text-decoration: none;
+}
+.welcome-page{
+    margin-top:-2px;
+    
+    background-size: 100% auto;
+    filter: brightness(70%);
+
+    display:flex;
+    align-items:center;
+    
+}
+.welcome-info{
+    width:100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.welcome-info > h1{
+    font-size: 200px;
+    margin-bottom:-40px;
+    font-family: 'Bebas Neue', cursive;
+    color:red;
+    padding:0;
+}
+.welcome-info > p{
+    font-size:30px;
+    color:white;
+    
+}
+.welcome-info-general{
+    width:100%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.welcome-info-general > h1{
+    font-size: 120px;
+    margin-top:-295px;
+    font-family: 'Bebas Neue', cursive;
+    color:red;
+    padding:0;
+
+}
+.welcome-info-general > p{
+    font-size:30px;
+    margin-top:-90px;
+    color:white;
+}
+.welcome-banner{
+    width:100%;
+    margin-top:-392px;
+}
+@media screen and (min-width:1381px) and (max-width:1600px) {
+    .welcome-page{
+        min-height:850px;
+    }
+    .welcome-info > h1 {
+        font-size:160px;
+    }
+    .welcome-info > p{
+        font-size:30px;
+        margin-top:-30px;
+    }
+
+}
+@media screen and (min-width:1139px) and (max-width:1380px) {
+    .welcome-page{
+        min-height:700px;
+    }
+    .welcome-info > h1 {
+        font-size:130px;
+    }
+    .welcome-info > p{
+        font-size:26px;
+        margin-top:10px;
+    }
+
+}
+@media screen and (min-width: 966px) and (max-width:1139px) {
+    .welcome-page{
+        min-height:600px;
+    }
+    .welcome-info > h1 {
+        font-size:120px;
+    }
+    .welcome-info > p{
+        font-size:20px;
+    }
+
+}
+@media screen and (min-width:761px) and (max-width:965px) {
+    .welcome-page{
+        min-height:450px;
+    }
+    .welcome-info > h1 {
+        font-size:120px;
+    }
+    .welcome-info > p{
+        font-size:20px;
+    }
+
+}
+@media screen and (min-width:644px) and (max-width:760px){
+    .welcome-page{
+        min-height: 400px;
+    }
+    .welcome-info > h1 {
+        font-size:110px;
+    }
+    .welcome-info > p{
+        font-size:20px;
+    }
+
+}
+@media screen and (max-width:643px){
+    .welcome-page{
+        min-height:300px;
+    }
+    .welcome-info > h1 {
+        font-size:70px;
+    }
+    .welcome-info > p{
+        margin:20px;
+        font-size:10px;
+    }
+
+}
+.content{
+    position:relative;
+    margin: 200px;
+    margin-top:10px;
+    
+}
+.content-heading{
+    color:red;
+    font-family: 'Rajdhani', sans-serif;
+    font-size:80px;
+    position:relative;
+    margin-bottom:0px;
+}
+.content-subheading{
+    color:red;
+    font-family: 'Rajdhani', sans-serif;
+    font-size:50px;
+}
+.content-paragraph{
+    position:relative;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;;
+    text-indent:90px;
+}
+.company-gallery{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap:10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.company-gallery-item > a > img{
+    height:auto;
+    width:50%;
+}
+.celeb-photo{
+    height: 500px;
+    width:auto;
+}
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+a img:hover{
+    filter:opacity(40%);
+}
+footer{
+    background-color:black;
+    color:white;
+    padding:30px;
+    padding-bottom:5px;
+    bottom:0px;
+}
+.footer > p > a{
+    text-decoration: none;
+    color:yellow;
+}
+.footer > p > a:hover{
+    color:red;
+}
+
+
+  .contact-picture{
+      height:400px;
+      position: absolute;
+      margin: auto;
+      margin-top:200px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 1;
+  }
+
+  fieldset{
+      margin-top: 100px;
+      margin-bottom:100px;
+      margin-left:290px;
+      margin-right: 290px;
+
+      font-family: 'Montserrat', sans-serif;
+
+      padding-top:80px;
+      padding-bottom:80px;
+      padding-left:80px;
+      padding-right:80px;
+  }
+  .profiler-form-caption{
+      font-size: 26px;
+      padding-bottom:30px;
+  }
+  input[type=text]{
+      width:75%;
+  }
+  input[type=email]{
+      width:70%;
+  }
