@@ -38,21 +38,6 @@
 
 ---
 
-## Future Improvements
-
-- **Add a Backend**: Integrate a server-side application to dynamically load profiles.
-- **Database Integration**: Store and retrieve profile data using a database like MySQL or MongoDB.
-- **Dynamic Theming**: Allow users to switch between themes (light, dark, etc.).
-- **Search Functionality**: Implement a search bar to quickly find profiles.
-
----
-
-## License 
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Acknowledgments
 
 - **Icons**: Taken from [Font Awesome](https://fontawesome.com/).
